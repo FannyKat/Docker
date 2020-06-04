@@ -1,0 +1,4 @@
+#Commands to be run from the shell of a debian container
+#docker run -it --rm debian
+apt-get update && apt-get upgrade -y
+apt-get install -y git && apt-get install -y gcc
